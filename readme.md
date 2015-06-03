@@ -13,7 +13,7 @@
 ```
 var list = ['red', 'green', 'blue'];
 
-changeToUpper([list]);
+changeToUpper(list);
 // => ['RED', 'GREEN', 'BLUE'];
 
 ```
