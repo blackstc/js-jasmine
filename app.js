@@ -12,9 +12,9 @@ module.exports = {
       }
   },
   findGreatestStrength: function(o) {
-      var greatestStrength = 0;
+      var greatestStrength = o[0];
       for (var i = 0; i < o.length; i++) {
-          if (o[i].strength > greatestStrength) {
+          if (o[i].strength > greatestStrength.strength) {
               greatestStrength = o[i];
           }
       }
